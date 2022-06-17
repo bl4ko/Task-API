@@ -48,6 +48,8 @@ const userSchema = new mongoose.Schema({
             required: true
         }
     }]
+}, {
+    timestamps: true
 });
 
 // Virtual property = relationship between two entities (user and tasks)
