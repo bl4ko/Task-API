@@ -1,6 +1,6 @@
 const express = require('express');
 const multer = require('multer'); // upload files
-const sharp = require('sharp')
+const sharp = require('sharp') // resize and change formate of images
 const User = require('../models/user');
 const auth = require('../middleware/auth')
 const router = new express.Router();
